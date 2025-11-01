@@ -13,8 +13,10 @@ Discover the rich flavors of the world — one cup at a time.
 ---
 
 ## 📸 **Preview**
-> _Add screenshots here when available_  
-*(Home page, product sections, UI preview, etc.)*
+> <img width="1344" height="640" alt="image" src="https://github.com/user-attachments/assets/834370a0-7cdf-4553-bf3a-01a9780bd72a" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3dbaa673-4f3e-4402-9186-528ac349857f" />
+
+
 
 ---
 
