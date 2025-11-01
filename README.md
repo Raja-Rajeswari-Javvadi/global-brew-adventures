@@ -1,35 +1,49 @@
-# ☕ Global Brew Adventures
+# ☕ **Global Brew Adventures**
 
-Global Brew Adventures is a modern, elegant coffee discovery web platform where users can explore premium coffees from around the world — all in one place.  
+Discover the rich flavors of the world — one cup at a time.  
+**Global Brew Adventures** is a modern, elegant coffee discovery platform where users can explore premium coffee origins, varieties, and cultures from around the globe.
 
-The website highlights different coffee origins and delivers a smooth, responsive, and visually appealing browsing experience.
-
----
-
-## ✨ Features
-
-- 🌍 Explore global coffee varieties  
-- ⚡ Ultrafast performance with **Vite**
-- 🎨 Modern UI with **ShadCN + Tailwind CSS**
-- 📱 Fully responsive design
-- 🧭 Smooth routing with **React Router**
-- 🚀 Deployed on **GitHub Pages**
+🌍 **Your passport to global coffee experiences.**
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 **Live Demo**
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue?style=for-the-badge)](https://raja-rajeswari-javvadi.github.io/global-brew-adventures/)
+
+---
+
+## 📸 **Preview**
+> _Add screenshots here when available_  
+*(Home page, product sections, UI preview, etc.)*
+
+---
+
+## ✨ **Features**
+
+- 🌍 Explore global coffee varieties & origins  
+- 🎨 Modern UI using **ShadCN + Tailwind CSS**
+- ⚡ Blazing fast performance with **Vite**
+- 📱 Fully responsive design  
+- 🧭 Smooth navigation via **React Router**
+- ✅ Clean folder structure & reusable components  
+- 🚀 Fast deployment on **GitHub Pages**
+
+---
+
+## 🛠️ **Tech Stack**
 
 | Category | Tools |
 |--------|----------------------------|
-| Frontend | React (TypeScript), Vite |
-| Styling | Tailwind CSS, ShadCN UI |
+| Framework | React + TypeScript |
+| Styling | Tailwind CSS + ShadCN UI |
 | Routing | React Router DOM |
-| Build & Deploy | Vite + gh-pages |
+| Build Tool | Vite |
+| Deployment | GitHub Pages |
 | Package Manager | npm |
 
 ---
 
-## 📂 Project Structure
+## 📁 **Project Structure**
 
 📂 src
 ┣ 📂 components
