@@ -1,6 +1,8 @@
 import { Button } from "./ui/button";
 import { ShoppingCart, Star } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useCart } from "@/contexts/CartContext";
+import { toast } from "@/hooks/use-toast";
 
 interface ProductCardProps {
   id: number;
@@ -15,6 +17,16 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ id, name, country, flag, price, image, roastLevel, rating, category }: ProductCardProps) => {
+  const { addToCart } = useCart();
+
+  const handleAddToCart = () => {
+    addToCart({ id, name, country, flag, price, image, roastLevel, category });
+    toast({
+      title: "Added to cart!",
+      description: `${name} has been added to your cart.`,
+    });
+  };
+
   return (
     <div className="group bg-card rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-border hover:border-accent/50">
       {/* Image Container */}
@@ -59,7 +71,7 @@ const ProductCard = ({ id, name, country, flag, price, image, roastLevel, rating
             <span className="text-2xl font-bold text-foreground">${price}</span>
             <span className="text-sm text-muted-foreground ml-1">/250g</span>
           </div>
-          <Button variant="coffee" size="sm" className="gap-1">
+          <Button variant="coffee" size="sm" className="gap-1" onClick={handleAddToCart}>
             <ShoppingCart className="h-4 w-4" />
             Add
           </Button>
